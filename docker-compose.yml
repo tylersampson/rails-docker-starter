@@ -25,6 +25,7 @@ services:
     depends_on:
       - postgres
       - redis
+    user: 1000:1000
 
   sidekiq:
     build: .

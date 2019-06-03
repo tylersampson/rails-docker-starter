@@ -9,6 +9,6 @@ RUN apk update \
     && rm -rf /var/cache/apk/*
 
 RUN bundle config --local build.nokogiri --use-system-libraries && bundle config --local job 10
-RUN gem install rails -v 6.0.0-rc1
+RUN gem install rails --pre
 
 WORKDIR /app
