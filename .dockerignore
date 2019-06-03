@@ -1,0 +1,23 @@
+.git
+.gitignore
+README.md
+
+#
+# Rails
+#
+.env
+.env.sample
+*.rbc
+capybara-*.html
+log
+tmp
+public/system
+coverage/
+spec/tmp
+**.orig
+
+.bundle
+
+.ruby-version
+.ruby-gemset
+.rvmrc
